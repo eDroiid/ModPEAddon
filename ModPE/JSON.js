@@ -1,5 +1,6 @@
 /**
-* ModPEAddon
+* ModPEAddon:
+* ModPE.JSON
 * @author eDroid
 * @link http://github.edroidthedev.com/?repo=ModPEAddon/ModPE/JSON.js
 */
