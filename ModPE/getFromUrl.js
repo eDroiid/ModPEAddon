@@ -26,4 +26,4 @@ ModPE.getFromUrl = function(url, errs = 0){
         }
     }
     return result;
-}
+};
