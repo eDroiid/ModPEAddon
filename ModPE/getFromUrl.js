@@ -4,7 +4,8 @@
 * eDroid
 * http://github.edroidthedev.com/?repo=ModPEAddon/ModPE/getFromUrl.js
 */
-ModPE.getFromUrl = function(url, errs = 0){
+ModPE.getFromUrl = function(url, errs){
+    errs = 0 || errs;
     try {
         var url = new java.net.URL(url);
         var connection = url.openConnection();
