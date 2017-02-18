@@ -20,7 +20,7 @@ ModPE.getFromUrl = function(url, errs){
         bufferedReader.close();
     } catch(err) {
         result = (errs ? "Getting URL Failed. Error: " + err : 0);
-        print("Error ModPE.ajax(): " + err);
+        print("Error ModPE.getFromUrl(): " + err);
     } finally {
         if(result == null || result == undefined){
             result = (errs ? "Result is null" : 0);
