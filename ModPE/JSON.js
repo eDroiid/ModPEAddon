@@ -6,6 +6,6 @@
 */
 ModPE.JSON = {
   parse: function(str){
-    return Function("return " + str)();
+    return eval('('+str+')');
   }
 };
